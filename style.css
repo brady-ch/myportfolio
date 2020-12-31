@@ -1,0 +1,66 @@
+/* Brady Christensen */
+/* 12/31/2020 */
+/* Version 1.0 */
+/* Here is the CSS for my website portfolio  */
+
+/* This is the formatting for the header */
+header {
+background: #66666E;
+color: whitesmoke;
+}
+
+/* This is the formatting for the main */
+main {
+margin-top:0%;
+margin-bottom: 0px;
+}
+
+/* This is the formatting for the footer */
+footer {
+background: #66666E;
+margin-top: 0%;
+}
+
+/* This is the formatting for all of the lists that have been assigned this class */
+.listformatting {
+text-align: justify;
+margin-inline-start: auto;
+font-size: 16px;
+}
+
+/* This is the formatting for the body */
+body{
+background: #EDE7E3;
+}
+
+/* This is the formatting for a bulk of the webpage, for things that will share similar attributes */
+header, main, footer {
+text-align: center;
+font-family: futara;
+padding: 5px;
+}
+
+/* This is the formatting for the navigation class that is part of the group nav */
+nav.navigation {
+border-style:solid;
+border: #000500;
+border-width: 2px;
+background: rgb(43, 26, 3);
+word-spacing: 10px;
+}
+
+/* Here is the styleing for the paragraphs */
+p {
+font-size: 16px;
+}
+
+/* This is the colors the links are set to after specific actions occur */
+a:link {color: aquamarine;}
+a:visited {color: aquamarine;}
+a:hover {color: crimson}
+a:active {color: blue}
+
+/* This is the formatting for the button class, which is used here to style the links */
+.btn {
+color:aquamarine;
+}
