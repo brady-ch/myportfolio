@@ -23,7 +23,7 @@ margin-top: 0%;
 
 /* This is the formatting for all of the lists that have been assigned this class */
 .listformatting {
-text-align: justify;
+text-align: left;
 margin-inline-start: auto;
 font-size: 16px;
 }
@@ -43,7 +43,7 @@ padding: 5px;
 /* This is the formatting for the navigation class that is part of the group nav */
 nav.navigation {
 border-style:solid;
-border: #000500;
+border-color: #000500;
 border-width: 2px;
 background: rgb(43, 26, 3);
 word-spacing: 10px;
@@ -63,4 +63,9 @@ a:active {color: blue}
 /* This is the formatting for the button class, which is used here to style the links */
 .btn {
 color:aquamarine;
+}
+
+/* This is the formatting for the h4 */
+h4{
+text-align: left;
 }
