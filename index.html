@@ -7,21 +7,21 @@
     
     This page is my first attempt at a website portfolio made in HTML and CSS, I will add in more as I learn and develop more -->
 
-<html>
+<html lang = en>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Portfolio, Brady Christensen</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <script src="script.js"></script>
-  </body>
+  
 <!-- This is a short self portfolio for myself.-->
 <!-- The following creates the header, the first two important details are in h1 and h2, the nav tag and navigation class create the links to other parts of the portfolio-->
 <header>
-<h1> Brady Christensen <h1>
-<h2> Software Developer <h2>
+<h1> Brady Christensen </h1>
+<h2> Software Developer </h2>
   <nav class = "navigation">
     <a  href = "index.html" class = "btn">Home</a>
     <a href = "#intro" class="btn">Intro</a>
@@ -34,27 +34,29 @@
 
 <!-- This is the main tag, it starts with a picture of myself, and a little about me.  -->
 <main>
+  <article>
   <section id = "intro">
-<img src = "images/mypicture.jpg" height="500" alt = "Picture of Me">
+<img src = "images/mypicture.jpg" alt = "Brady Christensen">
 <h3> Hello there! My name is Brady Christensen </h3> 
-<h4>I am an aspiring software developer and I live in Salt Lake City, Utah</h4>
+<h4>I am an aspiring software developer and I live in Salt Lake City, Utah.</h4>
   </section>
-    <hr>
   <section id = "about">
 <!-- The following is an unordered list -->
-
-<ul class = "listformatting"><strong>Here are some of my hobbies and interests:</strong>
-  <li> I love to rock climb whenever I get the chance   </li>
-  <li> I enjoy programming, which is a big part of my interest in being a Software Engineer  </li>
-  <li> I enojy riding my bike, indoors and out</li>
-  <li> Hiking is great, especially here in Utah  </li>
-  <li> I enjoy math, and I hope that I can incorporate it more into programming as I go further in my career </li>
+<h5>Here are some of my hobbies and interests:</h5>
+<ul class = "listformatting">
+  <li> I love to rock climb whenever I get the chance.   </li>
+  <li> I enjoy programming, which is a big part of my interest in being a Software Engineer.  </li>
+  <li> I enjoy riding my bike, indoors and out.</li>
+  <li> Hiking is great, especially here in Utah.  </li>
+  <li> I enjoy math, and I hope that I can incorporate it more into programming as I go further in my career. </li>
+  <li> I look forward to working with other developers and making cool content. </li>
 </ul>
 
 <!-- This is a horizontal rule -->
 <hr>
-<!-- The following is aan ordered list -->
-<ol class = "listformatting"><strong>I have some experience programming in the following languages and or programs:</strong>
+<!-- The following is an ordered list -->
+<h5>I have some experience programming in the following languages and or programs:</h5>
+<ol class = "listformatting">
 <li>Javascript</li>
 <li>HTML</li>
 <li>CSS</li>
@@ -62,31 +64,18 @@
 <li>Java</li>
 </ol>
   </section>
+  </article>
 <hr>
 
 </main>
-
-
-
-
+      
 <!-- This is the footer, which contains my contact information, linkedin profile, and github profile -->
 
 <footer id = "contact">
-
-<p><a href= "https://www.linkedin.com/in/brady-christensen-b69488187/" class = "btn"> My LinkedIn Profile</a></p>
-<p><a href= "https://github.com/brady-ch" class = "btn"> My GitHub Profile</a></p>
+<p><a href= "https://www.linkedin.com/in/brady-christensen-b69488187/" target = "_blank" class = "btn"> My LinkedIn Profile</a></p>
+<p><a href= "https://github.com/brady-ch" target = "_blank" class = "btn"> My GitHub Profile</a></p>
 <p> © Brady Christensen</p>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
+      
+  </body>
 </html>
